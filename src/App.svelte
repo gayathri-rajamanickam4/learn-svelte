@@ -23,7 +23,7 @@ import ContactCard from './ContactCard.svelte';
 </script>
 
 <main>
-	<h1>Hello {processedName}!. Day 1 today</h1>
+	<h1>Hello {processedName}!. Day 2 today</h1>
 	<button on:click={toggleName}>Toggle Name</button>
 	<button on:click={changeRandom}>Change Random</button>
 	<input type="text" bind:value={name}/>
